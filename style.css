@@ -1,0 +1,97 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.girl {
+    opacity: 0.7;
+    right: 50%;
+    left: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://jooinn.com/images/beautiful-girl-70.jpg");
+    filter: brightness(20%);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.popup-window {
+	width: 600px;
+	height: 330px;
+    position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    text-align: center;
+    vertical-align: middle;
+	margin: auto;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.poup-heading {
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.popup-description {
+    color: rgb(75, 73, 73);
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.popup {
+    margin-top: 50px;
+}
+
+.mail {
+    
+    padding: 9px;
+    width: 300px;
+    border-color: grey;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: thin;
+    user-select: none;
+}
+
+.subscribe {
+    padding: 8px;
+    border-color: rgb(6, 108, 241);
+    border-radius: 3px;
+    border-style: solid;
+    background-color: rgb(6, 108, 241);
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+#close-button {
+    margin-top: 15px;
+    margin-left: 530px;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight:900;
+    color:rgb(105, 105, 105);
+    cursor: pointer;
+}
+
+#e-mail {
+    position: absolute;
+    right: 175px;
+
+}
+
+#sub-scribe {
+    position: absolute;
+    left: 390px;
+}
+/* Mislam deka toa e toa, ostanatoto e za JavaScript. Mislam deka e dobra pozadinata :)
+
